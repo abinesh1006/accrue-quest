@@ -2,6 +2,8 @@ import './App.css';
 import { TonConnectButton } from '@tonconnect/ui-react';
 import { useTonConnect } from './hooks/useTonConnect';
 import { useCounterContract } from './hooks/useCounterContract';
+import Navbar  from './components/navbar';
+import Footer from './components/footer/Footer';
 
 function App() {
   const { connected } = useTonConnect();
@@ -9,6 +11,7 @@ function App() {
 
   return (
     <div className='App'>
+ <Navbar />
       <div className='Container'>
         <TonConnectButton />
 
@@ -31,6 +34,7 @@ function App() {
           Increment
         </a>
       </div>
+ <Footer/>
     </div>
   );
 }
