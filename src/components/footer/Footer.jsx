@@ -10,9 +10,8 @@ const Footer = () => {
   return (
     <div className="footer">
       <div  className="footer coll_footer footer-padding">
-  
 
-{/** Em  {(new Date().getFullYear())}   (Ano Capturado dinâmicamente ) */}
+	{/** Em  {(new Date().getFullYear())}   (Ano Capturado dinâmicamente ) */}
 
       <div className="footer-below">
         <div className="footer-copyright">
