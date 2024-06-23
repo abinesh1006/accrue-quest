@@ -2,12 +2,20 @@
     padding: 1rem 1rem;
 }
 
+.container {
+
+}
+
+.centered-div {
+
+}
+
 .footer{
     background-color: #2d2d32;
-position:absolute;
-left:0;
-bottom:0;
-right:0;
+    position:absolute;
+    left:0;
+    bottom:0;
+   right:0;
 }
 
 .coll_footer{
