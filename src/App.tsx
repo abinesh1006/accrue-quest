@@ -1,23 +1,16 @@
 import './App.css';
-import { TonConnectButton } from '@tonconnect/ui-react';
-import { useTonConnect } from './hooks/useTonConnect';
-import { useCounterContract } from './hooks/useCounterContract';
+
 import Navbar  from './components/navbar';
-import Footer from './components/footer/Footer';
 
 function App() {
-  const { connected } = useTonConnect();
-  const { value, address, sendIncrement } = useCounterContract();
+
 
     return (
         <div className='App'>
          <Navbar />
 
 
-        <h1 className="text-3xl font-bold underline">
-            <TonConnectButton ></TonConnectButton>
-        </h1>
-        </div>
+               </div>
  //   <div className='App'>
  //<Navbar />
  //     {/*<div className='Container'>*/}
