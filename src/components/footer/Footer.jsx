@@ -15,9 +15,9 @@ const Footer = () => {
 
       <div className="footer-below centered-div">
       <div className="footer-below-links">
-          <a href="/terms"><div><p>Terms</p></div></a>
-          <a href="/privacy"><div><p>Privacy</p></div></a>
-          <a href="/security"><div><p>security</p></div></a>
+          <a href="/terms"><p>Terms</p></a>
+          <a href="/privacy"><p>Privacy</p></a>
+          <a href="/security"><p>security</p></a>
       </div>
       </div>
       </div>
