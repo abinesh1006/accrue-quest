@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\components"
+    "\\components",
+    "\\components\\coming",
+    "\\components\\footer"
   ],
-  "SelectedNode": "\\index.css",
+  "SelectedNode": "\\App.tsx",
   "PreviewInSolutionExplorer": false
 }
