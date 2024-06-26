@@ -28,10 +28,7 @@ const Navbar = () => {
 			  </a>
 				
 					
-					<li className="mr-3 inline-block">
-						<a className="inline-block text-black no-underline decoration-indigo-300 hover:underline py-2 px-4" href="#b">link</a>
-				  </li>
-			
+								
 			  </ul>
 			</div>
 			<div className="flex items-center flex-shrink-0 text-white mr-6">
