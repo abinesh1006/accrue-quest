@@ -1,28 +1,20 @@
-import "../../../src/App.css";
-import '../footer/Footer.css';
-import { FaFacebook } from 'react-icons/fa';
-import { FaTwitter } from 'react-icons/fa';
-import { FaInstagram } from 'react-icons/fa';
-import { FaLinkedin } from 'react-icons/fa';
+// Footer.js
 
+import React from 'react';
 
 const Footer = () => {
-  return (
-    <div className="footer container">
-      <div  className="footer coll_footer footer-padding">
-
-	{/** Em  {(new Date().getFullYear())}   (Ano Capturado dinâmicamente ) */}
-
-      <div className="footer-below centered-div">
-      <div className="footer-below-links">
-          <a href="/terms"><p>Terms</p></a>
-          <a href="/privacy"><p>Privacy</p></a>
-          <a href="/security"><p>security</p></a>
-      </div>
-      </div>
-      </div>
-    </div>
-  );
-};
+    return (
+        <footer className="bg-gray-800 text-gray-300 py-4 fixed bottom-0 w-full">
+            <div className="container mx-auto flex items-center justify-center">
+                <p className="text-sm">&copy; 2024 Accrue Quest. All rights reserved.</p>
+                <div className="flex space-x-6"> {/* Increased space between items */}
+                    <a href="#" className="text-sm hover:text-blue-500 px-2 py-1">Terms & Privacy</a>
+                </div>
+                <span className="text-sm">|</span>
+                <a href="#" className="text-sm hover:text-blue-500 px-2 py-1">Contact</a>
+            </div>
+        </footer>
+    );
+}
 
 export default Footer;
