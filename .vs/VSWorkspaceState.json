@@ -4,8 +4,11 @@
     "\\src",
     "\\src\\components",
     "\\src\\components\\quiz",
+    "\\src\\components\\wallet",
+    "\\src\\contracts",
+    "\\src\\hooks",
     "\\src\\services"
   ],
-  "SelectedNode": "\\src\\App.tsx",
+  "SelectedNode": "\\src\\components\\GridClickComponent.jsx",
   "PreviewInSolutionExplorer": false
 }

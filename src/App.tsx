@@ -7,20 +7,23 @@ import Navbar from './components/navbar';
 import Footer from './components/footer/Footer'
 
 const App: React.FC = () => {
-    const [currentPoints, setCurrentPoints] = useState<number>(1000); // Example starting points
+    const [currentPoints, setCurrentPoints] = useState<number>(400); // Example starting points
     const handlePointsUpdate = (newPoints: number) => {
         // Example: Update points logic
         setCurrentPoints(newPoints);
     };
     return (
         <Router>
-            <Navbar currentPoints={currentPoints} />
+     
+                    <Navbar currentPoints={currentPoints} />
+       
             <Routes>
-
-                <Route path="/accrue-quest/" element={currentPoints > 0 ? <QuizContainer currentPoints={currentPoints} onPointsUpdate={handlePointsUpdate} /> : <Navigate to="/point-exhausted" />} />
-                <Route path="/point-exhausted" element={<PointExhaustedComponent />} />
-                <Route path="/grid-click" element={<GridClickComponent />} />
-            </Routes>
+                <Route path="/accrue-quest/" element={currentPoints > 0 ? <QuizContainer currentPoints={currentPoints} onPointsUpdate={handlePointsUpdate} /> : <Navigate to="/accrue-quest/point-exhausted" />} />
+                <Route path="/accrue-quest/point-exhausted" element={<PointExhaustedComponent  />} />
+                <Route path="/accrue-quest/grid-click" element={<GridClickComponent currentPoints={currentPoints} onPointsUpdate={handlePointsUpdate} />} />
+                    </Routes>
+               
+          
             <Footer />
         </Router>
     );
