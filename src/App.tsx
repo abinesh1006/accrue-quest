@@ -1,44 +1,137 @@
-import './App.css';
-
-import Navbar  from './components/navbar';
-import Coming from './components/coming/comingsoon'
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import QuizContainer from './components/quiz/quizContainer';
+import PointExhaustedComponent from './components/PointExhaustedComponent';
+import GridClickComponent from './components/GridClickComponent';
+import Navbar from './components/navbar';
 import Footer from './components/footer/Footer'
-function    App() {
 
-
+const App: React.FC = () => {
+    const [currentPoints, setCurrentPoints] = useState<number>(1000); // Example starting points
+    const handlePointsUpdate = (newPoints: number) => {
+        // Example: Update points logic
+        setCurrentPoints(newPoints);
+    };
     return (
-        <div className='App'>
-         <Navbar />
+        <Router>
+            <Navbar currentPoints={currentPoints} />
+            <Routes>
 
-            <Coming />
-         <Footer></Footer>
-               </div>
- //   <div className='App'>
- //<Navbar />
- //     {/*<div className='Container'>*/}
- //     {/*  <TonConnectButton ></TonConnectButton>*/}
- //     {/*  <div className='Card'>*/}
- //     {/*    <b>Counter Address</b>*/}
- //     {/*    <div className='Hint'>{address?.slice(0, 30) + '...'}</div>*/}
- //     {/*  </div>*/}
+                <Route path="/accrue-quest/" element={currentPoints > 0 ? <QuizContainer currentPoints={currentPoints} onPointsUpdate={handlePointsUpdate} /> : <Navigate to="/point-exhausted" />} />
+                <Route path="/point-exhausted" element={<PointExhaustedComponent />} />
+                <Route path="/grid-click" element={<GridClickComponent />} />
+            </Routes>
+            <Footer />
+        </Router>
+    );
+};
 
- //     {/*  <div className='Card'>*/}
- //     {/*    <b>Counter Value</b>*/}
- //     {/*    <div>{value ?? 'Loading...'}</div>*/}
- //     {/*  </div>*/}
+export default App;
 
- //     {/*  <a*/}
- //     {/*    className={`Button ${connected ? 'Active' : 'Disabled'}`}*/}
- //     {/*    onClick={() => {*/}
- //     {/*      sendIncrement();*/}
- //     {/*    }}*/}
- //     {/*  >*/}
- //     {/*    Increment*/}
- //     {/*  </a>*/}
- //     {/*</div>*/}
- //<Footer/>
- //   </div>
-  );
-}
 
-export default App
+//import React, { useState } from 'react';
+//import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+//import Navbar  from './components/navbar';
+//import Coming from './components/coming/comingsoon'
+//import Footer from './components/footer/Footer'
+//import UserCoins from './components/userCoins';
+//import QuizContainer from './components/quiz/quizContainer'
+//import PointExhaustedComponent from './components//PointExhaustedComponent';
+//import GridClickComponent from './components/GridClickComponent';
+
+//const App: React.FC = () => {
+//    const [currentPoints, setCurrentPoints] = useState<number>(1000); // Example starting points
+
+//    return (
+//        <Router>
+//            <Routes>
+//                <Route path="/">
+//                    <Navbar currentPoints={currentPoints} />
+//                    {currentPoints > 0 ? (
+//                        <QuizContainer currentPoints={currentPoints} setCurrentPoints={setCurrentPoints} />
+//                    ) : (
+//                            <Navigate to="/point-exhausted" />
+//                    )}
+//                    <Footer />
+//                </Route>
+//                <Route path="/coming">
+//                    <UserCoins userId="sample" />
+//                    <Coming />
+//                </Route>
+//                <Route path="/point-exhausted">
+//                    <PointExhaustedComponent />
+//                </Route>
+//                <Route path="/grid-click">
+//                    <GridClickComponent />
+//                </Route>
+//            </Routes>
+//        </Router>
+//    );
+//};
+
+//export default App;
+
+
+
+////import './App.css';
+////import React, { useState } from 'react';
+
+////import Navbar  from './components/navbar';
+////import Coming from './components/coming/comingsoon'
+////import Footer from './components/footer/Footer'
+////import UserCoins from './components/userCoins';
+////import QuizContainer from './components/quiz/quizContainer'
+////import React, { useState } from 'react';
+////import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
+////import QuizContainer from './QuizContainer';
+////import PointExhaustedComponent from './PointExhaustedComponent';
+////import GridClickComponent from './GridClickComponent';
+
+////const App: React.FC = () => {
+////    const [currentPoints, setCurrentPoints] = useState<number>(1000); // Example starting points
+
+////    return (
+////        <Router>
+////            <Switch>
+////                <Route path="/" exact>
+////<Navbar currentPoints={currentPoints} />
+////                    {currentPoints > 0 ? (
+////                        <QuizContainer currentPoints={currentPoints} setCurrentPoints={setCurrentPoints} />
+////                    ) : (
+////                        <Redirect to="/point-exhausted" />
+////                    )}
+////                </Route>
+////                <Route path="/point-exhausted" exact>
+////                    <PointExhaustedComponent />
+////                </Route>
+////                <Route path="/grid-click" exact>
+////                    <GridClickComponent />
+////                </Route>
+////            </Switch>
+////        </Router>
+////    );
+////};
+
+////export default App;
+
+//////const App: React.FC = () => {
+
+//////    const [currentPoints, setCurrentPoints] = useState<number>(100000); // Fetch from backend API at the start
+
+
+
+
+//////    return (
+//////        <div className='App'>
+//////            <Navbar currentPoints={currentPoints} />
+
+//////            <QuizContainer currentPoints={currentPoints} onPointsUpdate={handlePointsUpdate} />
+//////            <UserCoins userId="sample" />
+//////            <Coming />
+//////         <Footer></Footer>
+//////               </div>
+
+//////  );
+//////}
+
+//////export default App

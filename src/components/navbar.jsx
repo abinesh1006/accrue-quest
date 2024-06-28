@@ -5,7 +5,8 @@ import logo from './logo.svg';
 import { TonConnectButton } from '@tonconnect/ui-react';
 import { useTonConnect } from '../hooks/useTonConnect';
 import { useCounterContract } from '../hooks/useCounterContract';
-const Navbar = () => {
+import BatteryBar from './Batterybar';
+const Navbar = ({ currentPoints }) => {
   const [showLinks, setShowLinks] = useState(false);
   const linksContainerRef = useRef(null);
   const linksRef = useRef(null);
@@ -29,7 +30,11 @@ const Navbar = () => {
 				
 					
 								
-			  </ul>
+				</ul>
+				<ul className="list-reset  p-2 items-center lg:flex justify-end inline-block">
+					<BatteryBar currentPoints={currentPoints} />
+				</ul>
+
 			</div>
 			<div className="flex items-center flex-shrink-0 text-white mr-6">
 				<TonConnectButton ></TonConnectButton>
