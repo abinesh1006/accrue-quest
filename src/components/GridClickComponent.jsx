@@ -13,7 +13,7 @@ const ClickerGame = ({ currentPoints, onPointsUpdate }) => {
     };
 
     return (
-        <div className="flex justify-center items-center min-h-screen bg-gradient-to-br from-purple-600 to-purple-900">
+        <div className="flex justify-center items-center min-h-screen bg-gradient-to-br from-blue-600 to-blue-900">
             <div className="w-full max-w-xl p-8 bg-white rounded-lg shadow-lg text-center relative">
                 {/* Circle with clickable area */}
                 <div

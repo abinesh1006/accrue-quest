@@ -11,7 +11,7 @@ const ResultCard = ({ quizResults }) => {
                 You scored {correctAnswers}/{totalQuestions}
             </p>
             <button
-                className="bg-purple-500 text-white px-4 py-2 mt-4 rounded-md hover:bg-purple-600"
+                className="bg-blue-600 text-white px-4 py-2 mt-4 rounded-md hover:bg-blue-800"
                 onClick={() => window.location.reload()} // Example of resetting quiz
             >
                 Retry Quiz

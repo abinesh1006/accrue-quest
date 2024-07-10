@@ -17,7 +17,7 @@ const Navbar = ({ currentPoints }) => {
   };
  
 	return (
-		<nav className="flex items-center justify-between flex-wrap bg-neutral-50 border-2 p-2 fixed w-full z-10 top-0">
+		<nav className="flex items-center justify-between flex-wrap bg-blue-200  p-2 fixed w-full z-10 top-0">
 			<div className="flex items-center flex-shrink-0 text-black mr-2">
 				<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
 					<path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>

@@ -5,10 +5,8 @@
     "\\src\\components",
     "\\src\\components\\quiz",
     "\\src\\components\\wallet",
-    "\\src\\contracts",
-    "\\src\\hooks",
     "\\src\\services"
   ],
-  "SelectedNode": "\\src\\components\\GridClickComponent.jsx",
+  "SelectedNode": "\\src\\components\\Batterybar.jsx",
   "PreviewInSolutionExplorer": false
 }

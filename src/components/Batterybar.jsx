@@ -28,7 +28,7 @@ const BatteryBar = ({ currentPoints }) => {
 
     return (
         <div className="flex items-center">
-            <div className="relative w-20 h-3 mr-2 border border-gray-300 rounded-lg overflow-hidden"> {/* Fixed width and padding */}
+            <div className="relative w-20 h-3 mr-2 border border-black rounded-lg overflow-hidden"> {/* Fixed width and padding */}
                 <div className="absolute top-0 left-0 h-full w-full" style={{ padding: `0 ${paddingSize}px` }}>
                     <div className={`absolute top-0 left-0 h-full ${levels[currentLevel - 1].color}`} style={{ width: `${percentage}%` }}></div>
                 </div>

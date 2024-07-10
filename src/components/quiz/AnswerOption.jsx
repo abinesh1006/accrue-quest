@@ -9,8 +9,8 @@ const AnswerOption = ({ option, selectedAnswer, handleAnswerSelect }) => {
             className={`flex items-center p-4 rounded-lg cursor-pointer transition-colors duration-300 ${isSelected
                     ? isCorrect
                         ? 'bg-green-500 text-white'
-                        : 'bg-red-500 text-white'
-                    : 'bg-purple-200 text-purple-800'
+                        : 'bg-red-600 text-white'
+                    : 'bg-blue-200 text-black-800'
                 }`}
             onClick={() => handleAnswerSelect(option)}
         >

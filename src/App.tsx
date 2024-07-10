@@ -7,7 +7,7 @@ import Navbar from './components/navbar';
 import Footer from './components/footer/Footer'
 
 const App: React.FC = () => {
-    const [currentPoints, setCurrentPoints] = useState<number>(400); // Example starting points
+    const [currentPoints, setCurrentPoints] = useState<number>(2200); // Example starting points
     const handlePointsUpdate = (newPoints: number) => {
         // Example: Update points logic
         setCurrentPoints(newPoints);

@@ -60,7 +60,7 @@ const QuizContainer = ({ currentPoints, onPointsUpdate }) => {
     };
 
     return (
-        <div className="flex justify-center items-center h-screen bg-gradient-to-br from-purple-600 to-purple-900">
+        <div className="flex justify-center items-center h-screen bg-gradient-to-br from-blue-600 to-blue-900">
             <div className="w-full max-w-lg p-8 bg-white rounded-lg shadow-lg relative">
                 {quizCompleted ? (
                     <ResultCard quizResults={quizResults} />

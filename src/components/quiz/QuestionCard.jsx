@@ -37,7 +37,7 @@ const QuestionCard = ({ currentPoints, onPointsUpdate, question, selectedAnswer,
         <div className="p-4 text-center">
             <h2 className="text-3xl mb-6">{question.question}</h2>
             <div className="flex justify-center">
-                <div className="bg-purple-300 rounded-lg p-8 shadow-lg max-w-xs w-full">
+                <div className="bg-blue-600 rounded-lg p-8 shadow-lg max-w-xs w-full">
                     <div className="grid grid-cols-1 gap-4">
                         {question.options.map((option) => (
                             <AnswerOption
