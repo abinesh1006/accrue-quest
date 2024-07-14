@@ -16,7 +16,7 @@ const Navbar = ({ currentPoints }) => {
     };
 
     const goToProfile = () => {
-        navigate('/accrue-quest/profile'); // Redirect to profile page
+        navigate('/profile'); // Redirect to profile page
     };
 
     return (
