@@ -3,10 +3,8 @@
     "",
     "\\src",
     "\\src\\components",
-    "\\src\\components\\quiz",
-    "\\src\\components\\wallet",
     "\\src\\services"
   ],
-  "SelectedNode": "\\src\\components\\Batterybar.jsx",
+  "SelectedNode": "\\src\\components\\profile.jsx",
   "PreviewInSolutionExplorer": false
 }
