@@ -3,8 +3,10 @@
     "",
     "\\src",
     "\\src\\components",
+    "\\src\\components\\footer",
+    "\\src\\components\\quiz",
     "\\src\\services"
   ],
-  "SelectedNode": "\\src\\components\\profile.jsx",
+  "SelectedNode": "\\src\\components\\PointExhaustedComponent.jsx",
   "PreviewInSolutionExplorer": false
 }

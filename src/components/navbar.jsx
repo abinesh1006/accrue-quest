@@ -4,8 +4,17 @@ import { links, social } from './data';
 import logo from './logo.svg';
 import BatteryBar from './Batterybar';
 import { useNavigate } from 'react-router-dom'; // Assuming you are using react-router-dom for navigation
+import {  useTonAddress } from '@tonconnect/ui-react';
+import { Link } from 'react-router-dom';
 
 const Navbar = ({ currentPoints }) => {
+    const userFriendlyAddress = useTonAddress(); // Assuming fields to display
+    const truncateText = (text, maxLength = 10) => {
+        if (text.length <= maxLength) {
+            return text;
+        }
+        return `${text.slice(0, maxLength)}`;
+    };
     const [showLinks, setShowLinks] = useState(false);
     const linksContainerRef = useRef(null);
     const linksRef = useRef(null);
@@ -17,6 +26,10 @@ const Navbar = ({ currentPoints }) => {
 
     const goToProfile = () => {
         navigate('/profile'); // Redirect to profile page
+    };
+
+    const goToLeaderBoard = () => {
+        navigate('/leaderBoard'); // Redirect to profile page
     };
 
     return (
@@ -34,11 +47,21 @@ const Navbar = ({ currentPoints }) => {
                     <BatteryBar currentPoints={currentPoints} />
                 </ul>
             </div>
-            <div className="flex items-center flex-shrink-0 text-white lg:flex justify-end inline-block mr-6">
+            <div className="flex items-center flex-shrink-0  text-blue-600 lg:flex justify-end inline-block mr-6">
+
+                <ul className="list-reset items-center lg:flex justify-end inline-block">
+                        <Link to="/leaderboard">
+                            <span className="text-black   no-underline hover:underline decoration-indigo-300"><i className="em em-grinning"></i>LeaderBoard</span>
+
+                        </Link>  
+                </ul>
+                <span className="text-black px-4" > {truncateText(userFriendlyAddress)}</span>
+                <Link to="/profile">
                 <FaUserCircle
-                    className="text-3xl cursor-pointer"
-                    onClick={goToProfile}
-                />
+                    className="text-3xl cursor-pointer "
+                    
+                    />
+                </Link>
             </div>
         </nav>
     );
