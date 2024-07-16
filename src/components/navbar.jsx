@@ -1,14 +1,11 @@
 import { useState, useRef } from 'react';
-import { FaBars, FaUserCircle } from 'react-icons/fa';
-import { links, social } from './data';
-import logo from './logo.svg';
+import { FaUserCircle } from 'react-icons/fa';
+import { useTonAddress } from '@tonconnect/ui-react';
+import { Link, useNavigate } from 'react-router-dom';
 import BatteryBar from './Batterybar';
-import { useNavigate } from 'react-router-dom'; // Assuming you are using react-router-dom for navigation
-import {  useTonAddress } from '@tonconnect/ui-react';
-import { Link } from 'react-router-dom';
 
 const Navbar = ({ currentPoints }) => {
-    const userFriendlyAddress = useTonAddress(); // Assuming fields to display
+    const userFriendlyAddress = useTonAddress();
     const truncateText = (text, maxLength = 10) => {
         if (text.length <= maxLength) {
             return text;
@@ -18,28 +15,29 @@ const Navbar = ({ currentPoints }) => {
     const [showLinks, setShowLinks] = useState(false);
     const linksContainerRef = useRef(null);
     const linksRef = useRef(null);
-    const navigate = useNavigate(); // Hook for navigation
+    const navigate = useNavigate();
 
     const toggleLinks = () => {
         setShowLinks(!showLinks);
     };
 
     const goToProfile = () => {
-        navigate('/profile'); // Redirect to profile page
+        navigate('/profile');
     };
 
     const goToLeaderBoard = () => {
-        navigate('/leaderBoard'); // Redirect to profile page
+        navigate('/leaderBoard');
     };
 
     return (
-        <nav className="flex items-center justify-between flex-wrap bg-blue-200 p-2 fixed w-full z-10 top-0">
+        <nav className="flex items-center justify-between flex-wrap bg-blue-200 p-1 md:p-2 fixed w-full z-10 top-0">
             <div className="flex items-center flex-shrink-0 text-black mr-2">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
-                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" className="w-8 h-8 text-white p-1 bg-indigo-500 rounded-full">
+                    <circle cx="50" cy="50" r="50" fill="indigo" />
+                    <text x="50" y="50" fill="white" fontSize="35" fontWeight="bold" fontFamily="Arial" textAnchor="middle" dominantBaseline="middle">AQ</text>
                 </svg>
                 <ul className="list-reset items-center lg:flex justify-end inline-block">
-                    <a className="text-black italic font-black no-underline hover:underline decoration-indigo-300" href="/">
+                    <a className="text-black italic font-black no-underline hover:underline decoration-indigo-300 hidden lg:inline" href="/">
                         <span className="text-1xl pl-2"><i className="em em-grinning"></i>AccrueQuest</span>
                     </a>
                 </ul>
@@ -47,20 +45,10 @@ const Navbar = ({ currentPoints }) => {
                     <BatteryBar currentPoints={currentPoints} />
                 </ul>
             </div>
-            <div className="flex items-center flex-shrink-0  text-blue-600 lg:flex justify-end inline-block mr-6">
-
-                <ul className="list-reset items-center lg:flex justify-end inline-block">
-                        <Link to="/leaderboard">
-                            <span className="text-black   no-underline hover:underline decoration-indigo-300"><i className="em em-grinning"></i>LeaderBoard</span>
-
-                        </Link>  
-                </ul>
-                <span className="text-black px-4" > {truncateText(userFriendlyAddress)}</span>
+            <div className="flex items-center flex-shrink-0 text-blue-600 lg:flex justify-end inline-block mr-6">
+                <span className="text-black px-4">{truncateText(userFriendlyAddress)}</span>
                 <Link to="/profile">
-                <FaUserCircle
-                    className="text-3xl cursor-pointer "
-                    
-                    />
+                    <FaUserCircle className="text-3xl cursor-pointer" />
                 </Link>
             </div>
         </nav>

@@ -7,10 +7,10 @@ const AnswerOption = ({ option, selectedAnswer, handleAnswerSelect }) => {
     return (
         <label
             className={`flex items-center p-4 rounded-lg cursor-pointer transition-colors duration-300 ${isSelected
-                    ? isCorrect
-                        ? 'bg-green-500 text-white'
-                        : 'bg-red-600 text-white'
-                    : 'bg-blue-200 text-black-800'
+                ? isCorrect
+                    ? 'bg-green-500 text-white'
+                    : 'bg-red-600 text-white'
+                : 'bg-blue-200 text-black-800'
                 }`}
             onClick={() => handleAnswerSelect(option)}
         >

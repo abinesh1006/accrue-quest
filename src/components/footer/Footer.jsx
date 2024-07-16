@@ -19,14 +19,14 @@ const Footer = () => {
                         <Link
                             key={index}
                             to={button.routeUrl}
-                            className="bg-blue-600 text-white text-xs hover:bg-blue-500 px-3 py-1 rounded text-center flex-1 min-w-[100px]"
+                            className={`bg-blue-600 text-white text-xs hover:bg-blue-500 px-3 py-1 rounded text-center flex-1 min-w-[100px] 
+                            ${index === 0 ? 'md:ml-2' : ''} 
+                            ${index === buttons.length - 1 ? 'md:mr-2' : ''}`}
                         >
                             {button.name}
                         </Link>
                     ))}
                 </div>
-
-               
             </div>
         </footer>
     );
