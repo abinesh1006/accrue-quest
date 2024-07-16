@@ -2,10 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\components",
-    "\\src\\components\\footer",
     "\\src\\components\\quiz",
     "\\src\\services"
   ],
+  "SelectedNode": "\\src\\components",
   "PreviewInSolutionExplorer": false
 }

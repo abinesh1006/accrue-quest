@@ -7,6 +7,7 @@ import Navbar from './components/navbar';
 import Footer from './components/footer/Footer';
 import Profile from './components/Profile';
 import Leaderboard from './components/LeaderBoard';
+import TasksPage from './components/TasksPage';
 
 const App = () => {
     const [initialPoints, setInitialPoints] = useState(10000);
@@ -87,6 +88,10 @@ const App = () => {
                 <Route
                     path="/grid-click"
                     element={<GridClickComponent currentPoints={initialPoints || 0} onPointsUpdate={handlePointsUpdate} />}
+                />
+                <Route
+                    path="/tasks"
+                    element={<TasksPage />}
                 />
                 <Route
                     path="/leaderboard"
