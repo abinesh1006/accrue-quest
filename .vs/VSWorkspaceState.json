@@ -2,9 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\components\\quiz",
-    "\\src\\services"
+    "\\src\\components",
+    "\\src\\components\\quiz"
   ],
-  "SelectedNode": "\\src\\components",
+  "SelectedNode": "\\src\\components\\quiz\\quizContainer.jsx",
   "PreviewInSolutionExplorer": false
 }
