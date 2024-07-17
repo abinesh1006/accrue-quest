@@ -5,6 +5,6 @@
     "\\src\\components",
     "\\src\\components\\quiz"
   ],
-  "SelectedNode": "\\src\\components\\quiz\\quizContainer.jsx",
+  "SelectedNode": "\\vite.config.ts",
   "PreviewInSolutionExplorer": false
 }
