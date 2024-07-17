@@ -13,7 +13,7 @@ const Footer = () => {
     ];
 
     return (
-        <footer className="fixed bottom-2 left-0 w-full flex justify-center">
+        <footer className="fixed bottom-5 left-0 w-full flex justify-center">
             <div className="bg-blue-200 flex justify-around items-center w-full max-w-xs rounded-lg shadow-lg py-1 px-2">
                 {buttons.map((button, index) => (
                     <Link
