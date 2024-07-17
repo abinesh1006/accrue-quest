@@ -14,14 +14,15 @@ const Footer = () => {
 
     return (
         <footer className="fixed bottom-3 left-0 w-full flex justify-center">
-            <div className="bg-blue-200 flex justify-around items-center w-full max-w-xs rounded-lg shadow-lg py-1 px-2">
+            <div className="bg-blue-200 flex justify-around
+items-center w-full max-w-sm rounded-lg shadow-lg">
                 {buttons.map((button, index) => (
                     <Link
                         key={index}
                         to={button.routeUrl}
-                        className="flex flex-col items-center text-blue-800 text-xs hover:text-blue-600 m-1"
+                        className="flex flex-col items-center text-blue-800 text-xs hover:text-blue-600"
                     >
-                        <i className={`${button.icon} text-xl mb-1`}></i>
+                        <i className={`${button.icon} pt-1 text-xl mb-1`}></i>
                         <span className="text-[10px]">{button.name}</span>
                     </Link>
                 ))}
