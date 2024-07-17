@@ -9,7 +9,7 @@ const Footer = () => {
         { name: 'Profile', routeUrl: '/profile', icon: 'fa-solid fa-user-friends' },
         { name: 'Leaderboard', routeUrl: '/leaderboard', icon: 'fa-solid fa-coins' },
         { name: 'Tasks', routeUrl: '/tasks', icon: 'fa-solid fa-parachute-box' },
-        { name: 'Wallet', routeUrl: '/wallet', icon: 'fa-solid fa-parachute-box' }
+        { name: 'RoadMap', routeUrl: '/roadMap', icon: 'fa-solid fa-parachute-box' }
     ];
 
     return (

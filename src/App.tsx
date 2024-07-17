@@ -8,6 +8,7 @@ import Footer from './components/footer/Footer';
 import Profile from './components/Profile';
 import Leaderboard from './components/LeaderBoard';
 import TasksPage from './components/TasksPage';
+import Roadmap from './components/Roadmap';
 
 const App = () => {
     const [initialPoints, setInitialPoints] = useState(10000);
@@ -92,6 +93,10 @@ const App = () => {
                 <Route
                     path="/tasks"
                     element={<TasksPage />}
+                />
+                <Route
+                    path="/roadmap"
+                    element={<Roadmap />}
                 />
                 <Route
                     path="/leaderboard"
