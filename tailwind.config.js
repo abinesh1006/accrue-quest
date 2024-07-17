@@ -5,10 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+		 // Custom scrollbar utilities
+      scrollbar: {
+        'hidden': 'hidden'
+      }
+	},
   },
     plugins: [
-        require('tailwind-scrollbar-hide')
+        require('tailwind-scrollbar')({ nocompatible: true })
         // Other plugins...
     ],
 }
