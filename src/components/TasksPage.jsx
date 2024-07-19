@@ -7,7 +7,10 @@ const mockTasks = [
     { id: 1, name: 'Subscribe on YouTube', icon: <IoLogoYoutube className="text-red-600" />, points: 40 },
     { id: 2, name: 'Follow on Twitter', icon: <FaTwitter className="text-blue-500" />, points: 40 },
     { id: 3, name: 'Subscribe to Telegram Channel', icon: <FaTelegramPlane className="text-blue-600" />, points: 40 },
-    { id: 4, name: 'Follow on Instagram', icon: <FaInstagram className="text-pink-500" />, points: 40 }
+    { id: 4, name: 'Follow on Instagram', icon: <FaInstagram className="text-pink-500" />, points: 40 },
+    { id: 5, name: 'Follow on facebook', icon: <FaInstagram className="text-pink-500" />, points: 40 },
+    { id: 6, name: 'Follow on X', icon: <FaInstagram className="text-pink-500" />, points: 40 }
+
 ];
 
 const mockUserTasks = {
@@ -47,11 +50,10 @@ const TasksPage = () => {
     };
 
     return (
-        <div className="flex justify-center items-center h-screen bg-gradient-to-br from-blue-600 to-blue-900">
-            <div className="w-full max-w-lg p-8 bg-white rounded-lg shadow-lg relative">
+       <div>
                 <h1 className="text-2xl font-bold mb-4">Tasks to be Performed</h1>
 
-                <div className="max-h-64 overflow-y-auto"> {/* Scrollable container */}
+                <div className="max-h-80 overflow-y-auto scrollbar-hidden"> {/* Increased height and hiding scrollbar */}
                     <div className="space-y-4">
                         {mockTasks.map(task => (
                             <Task
@@ -68,6 +70,7 @@ const TasksPage = () => {
                             icon={<FaRegCheckCircle className="text-gray-600" />}
                             onClick={handleDailyCheckIn}
                             isCompleted={checkInDays > 0}
+                            points="40"
                         />
                     </div>
                 </div>
@@ -90,12 +93,8 @@ const TasksPage = () => {
                     </div>
                 </Dialog>
 
-                {/* Display Score */}
-                <div className="mt-4 text-lg font-bold">
-                    Your AQ Score: {score}
-                </div>
+               
             </div>
-        </div>
     );
 };
 

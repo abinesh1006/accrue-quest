@@ -9,6 +9,7 @@ import Profile from './components/Profile';
 import Leaderboard from './components/LeaderBoard';
 import TasksPage from './components/TasksPage';
 import Roadmap from './components/Roadmap';
+import CardGrid from './components/cards/CardGrid';
 
 const App = () => {
     const [initialPoints, setInitialPoints] = useState(10000);
@@ -73,8 +74,11 @@ const App = () => {
     }
 
     return (
+       
         <Router>
             <Navbar currentPoints={initialPoints || 0} />
+            <div className="flex justify-center items-center h-screen bg-gradient-to-br from-blue-600 to-blue-900 rounded-lg">
+                <div className="w-full max-w-4xl p-6 md:p-8 bg-white rounded-lg shadow-lg relative max-h-[80vh] overflow-hidden">
             <Routes>
                 <Route path="/profile" element={<Profile profileDetails={profileDetails} currentPoints={initialPoints} />} />
                 <Route
@@ -95,6 +99,10 @@ const App = () => {
                     element={<TasksPage />}
                 />
                 <Route
+                    path="/mine"
+                    element={<CardGrid />}
+                />
+                <Route
                     path="/roadmap"
                     element={<Roadmap />}
                 />
@@ -102,10 +110,14 @@ const App = () => {
                     path="/leaderboard"
                     element={<Leaderboard currentUserId={profileDetails.userId} currentScore={initialPoints} currentRank={profileDetails.rank} />}
                 />
-                <Route path="*" element={<NotFound />} />
-            </Routes>
+                        <Route path="*" element={<NotFound />} />
+                  
+                    </Routes>
+                </div>
+            </div>
             <Footer />
-        </Router>
+                </Router>
+         
     );
 };
 

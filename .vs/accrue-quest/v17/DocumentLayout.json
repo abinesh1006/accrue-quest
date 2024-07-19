@@ -3,6 +3,46 @@
   "WorkspaceRootPath": "E:\\PROJECTS\\accrue-quest\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\PROJECTS\\accrue-quest\\src\\components\\cards\\Card.jsx||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\cards\\Card.jsx||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\PROJECTS\\accrue-quest\\src\\components\\cards\\CardGrid.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\cards\\CardGrid.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\PROJECTS\\accrue-quest\\src\\components\\Roadmap.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Roadmap.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\PROJECTS\\accrue-quest\\src\\App.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\App.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\PROJECTS\\accrue-quest\\src\\components\\quiz\\QuestionCard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\quiz\\QuestionCard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\PROJECTS\\accrue-quest\\src\\components\\TasksPage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\TasksPage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\PROJECTS\\accrue-quest\\src\\components\\quiz\\quizContainer.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\quiz\\quizContainer.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\PROJECTS\\accrue-quest\\src\\components\\LeaderBoard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\LeaderBoard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\PROJECTS\\accrue-quest\\src\\components\\Profile.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Profile.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\PROJECTS\\accrue-quest\\src\\components\\footer\\Footer.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\footer\\Footer.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\PROJECTS\\accrue-quest\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -13,30 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\PROJECTS\\accrue-quest\\tsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\PROJECTS\\accrue-quest\\src\\components\\Roadmap.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Roadmap.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\PROJECTS\\accrue-quest\\src\\components\\quiz\\quizContainer.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\quiz\\quizContainer.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\PROJECTS\\accrue-quest\\src\\components\\quiz\\QuestionCard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\quiz\\QuestionCard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\PROJECTS\\accrue-quest\\src\\components\\footer\\Footer.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\footer\\Footer.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\PROJECTS\\accrue-quest\\src\\App.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\App.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\PROJECTS\\accrue-quest\\src\\components\\LeaderBoard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\LeaderBoard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\PROJECTS\\accrue-quest\\src\\components\\quiz\\QuestionInfoStats.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -59,16 +75,8 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\PROJECTS\\accrue-quest\\src\\components\\TasksPage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\TasksPage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\PROJECTS\\accrue-quest\\src\\components\\footer\\Footer.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\footer\\Footer.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\PROJECTS\\accrue-quest\\src\\components\\Profile.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Profile.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\PROJECTS\\accrue-quest\\src\\components\\PointExhaustedComponent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -138,100 +146,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "tailwind.config.js",
-              "DocumentMoniker": "E:\\PROJECTS\\accrue-quest\\tailwind.config.js",
-              "RelativeDocumentMoniker": "tailwind.config.js",
-              "ToolTip": "E:\\PROJECTS\\accrue-quest\\tailwind.config.js",
-              "RelativeToolTip": "tailwind.config.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-07-17T04:51:43.091Z",
+              "Title": "CardGrid.jsx",
+              "DocumentMoniker": "E:\\PROJECTS\\accrue-quest\\src\\components\\cards\\CardGrid.jsx",
+              "RelativeDocumentMoniker": "src\\components\\cards\\CardGrid.jsx",
+              "ToolTip": "E:\\PROJECTS\\accrue-quest\\src\\components\\cards\\CardGrid.jsx",
+              "RelativeToolTip": "src\\components\\cards\\CardGrid.jsx",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAAwGIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-07-19T04:48:52.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Card.jsx",
+              "DocumentMoniker": "E:\\PROJECTS\\accrue-quest\\src\\components\\cards\\Card.jsx",
+              "RelativeDocumentMoniker": "src\\components\\cards\\Card.jsx",
+              "ToolTip": "E:\\PROJECTS\\accrue-quest\\src\\components\\cards\\Card.jsx",
+              "RelativeToolTip": "src\\components\\cards\\Card.jsx",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAwGQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-07-19T04:48:31.174Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "tsconfig.json",
-              "DocumentMoniker": "E:\\PROJECTS\\accrue-quest\\tsconfig.json",
-              "RelativeDocumentMoniker": "tsconfig.json",
-              "ToolTip": "E:\\PROJECTS\\accrue-quest\\tsconfig.json",
-              "RelativeToolTip": "tsconfig.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-17T04:51:41.58Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Roadmap.jsx",
               "DocumentMoniker": "E:\\PROJECTS\\accrue-quest\\src\\components\\Roadmap.jsx",
               "RelativeDocumentMoniker": "src\\components\\Roadmap.jsx",
               "ToolTip": "E:\\PROJECTS\\accrue-quest\\src\\components\\Roadmap.jsx",
               "RelativeToolTip": "src\\components\\Roadmap.jsx",
-              "ViewState": "AgIAABoAAAAAAAAAAAAcwDcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAAEkAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2024-07-17T04:29:07.737Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "QuestionCard.jsx",
               "DocumentMoniker": "E:\\PROJECTS\\accrue-quest\\src\\components\\quiz\\QuestionCard.jsx",
               "RelativeDocumentMoniker": "src\\components\\quiz\\QuestionCard.jsx",
               "ToolTip": "E:\\PROJECTS\\accrue-quest\\src\\components\\quiz\\QuestionCard.jsx",
               "RelativeToolTip": "src\\components\\quiz\\QuestionCard.jsx",
-              "ViewState": "AgIAAD8AAAAAAAAAAADwv10AAABTAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAFwAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2024-06-28T13:09:06.867Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 5,
               "Title": "TasksPage.jsx",
               "DocumentMoniker": "E:\\PROJECTS\\accrue-quest\\src\\components\\TasksPage.jsx",
               "RelativeDocumentMoniker": "src\\components\\TasksPage.jsx",
               "ToolTip": "E:\\PROJECTS\\accrue-quest\\src\\components\\TasksPage.jsx",
               "RelativeToolTip": "src\\components\\TasksPage.jsx",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAwHUAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAGEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-07-16T04:03:06.658Z"
+              "WhenOpened": "2024-07-16T04:03:06.658Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Footer.jsx",
               "DocumentMoniker": "E:\\PROJECTS\\accrue-quest\\src\\components\\footer\\Footer.jsx",
               "RelativeDocumentMoniker": "src\\components\\footer\\Footer.jsx",
               "ToolTip": "E:\\PROJECTS\\accrue-quest\\src\\components\\footer\\Footer.jsx",
               "RelativeToolTip": "src\\components\\footer\\Footer.jsx",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2024-07-14T14:44:38.051Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 8,
               "Title": "Profile.jsx",
               "DocumentMoniker": "E:\\PROJECTS\\accrue-quest\\src\\components\\Profile.jsx",
               "RelativeDocumentMoniker": "src\\components\\Profile.jsx",
               "ToolTip": "E:\\PROJECTS\\accrue-quest\\src\\components\\Profile.jsx",
               "RelativeToolTip": "src\\components\\Profile.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-07-14T06:30:10.335Z"
+              "WhenOpened": "2024-07-14T06:30:10.335Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
               "Title": "index.css",
               "DocumentMoniker": "E:\\PROJECTS\\accrue-quest\\src\\index.css",
               "RelativeDocumentMoniker": "src\\index.css",
@@ -244,7 +254,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "AnswerOption.jsx",
               "DocumentMoniker": "E:\\PROJECTS\\accrue-quest\\src\\components\\quiz\\AnswerOption.jsx",
               "RelativeDocumentMoniker": "src\\components\\quiz\\AnswerOption.jsx",
@@ -252,37 +262,77 @@
               "RelativeToolTip": "src\\components\\quiz\\AnswerOption.jsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-06-28T19:40:44.479Z"
+              "WhenOpened": "2024-06-28T19:40:44.479Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "App.tsx",
               "DocumentMoniker": "E:\\PROJECTS\\accrue-quest\\src\\App.tsx",
               "RelativeDocumentMoniker": "src\\App.tsx",
               "ToolTip": "E:\\PROJECTS\\accrue-quest\\src\\App.tsx",
               "RelativeToolTip": "src\\App.tsx",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAAGEAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFAAAABvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2024-06-28T13:07:11.079Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "quizContainer.jsx",
               "DocumentMoniker": "E:\\PROJECTS\\accrue-quest\\src\\components\\quiz\\quizContainer.jsx",
               "RelativeDocumentMoniker": "src\\components\\quiz\\quizContainer.jsx",
               "ToolTip": "E:\\PROJECTS\\accrue-quest\\src\\components\\quiz\\quizContainer.jsx",
               "RelativeToolTip": "src\\components\\quiz\\quizContainer.jsx",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAE8AAABfAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFMAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2024-06-28T13:23:58.455Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
+              "Title": "LeaderBoard.jsx",
+              "DocumentMoniker": "E:\\PROJECTS\\accrue-quest\\src\\components\\LeaderBoard.jsx",
+              "RelativeDocumentMoniker": "src\\components\\LeaderBoard.jsx",
+              "ToolTip": "E:\\PROJECTS\\accrue-quest\\src\\components\\LeaderBoard.jsx",
+              "RelativeToolTip": "src\\components\\LeaderBoard.jsx",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-07-14T12:44:31.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "tsconfig.json",
+              "DocumentMoniker": "E:\\PROJECTS\\accrue-quest\\tsconfig.json",
+              "RelativeDocumentMoniker": "tsconfig.json",
+              "ToolTip": "E:\\PROJECTS\\accrue-quest\\tsconfig.json",
+              "RelativeToolTip": "tsconfig.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-17T04:51:41.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "tailwind.config.js",
+              "DocumentMoniker": "E:\\PROJECTS\\accrue-quest\\tailwind.config.js",
+              "RelativeDocumentMoniker": "tailwind.config.js",
+              "ToolTip": "E:\\PROJECTS\\accrue-quest\\tailwind.config.js",
+              "RelativeToolTip": "tailwind.config.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-17T04:51:43.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "InfoPopup.jsx",
               "DocumentMoniker": "E:\\PROJECTS\\accrue-quest\\src\\components\\quiz\\InfoPopup.jsx",
               "RelativeDocumentMoniker": "src\\components\\quiz\\InfoPopup.jsx",
@@ -290,11 +340,12 @@
               "RelativeToolTip": "src\\components\\quiz\\InfoPopup.jsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-07-16T16:13:47.04Z"
+              "WhenOpened": "2024-07-16T16:13:47.04Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "QuestionInfoStats.jsx",
               "DocumentMoniker": "E:\\PROJECTS\\accrue-quest\\src\\components\\quiz\\QuestionInfoStats.jsx",
               "RelativeDocumentMoniker": "src\\components\\quiz\\QuestionInfoStats.jsx",
@@ -302,11 +353,12 @@
               "RelativeToolTip": "src\\components\\quiz\\QuestionInfoStats.jsx",
               "ViewState": "AgIAABIAAAAAAAAAAAAAAC8AAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-07-16T16:53:05.153Z"
+              "WhenOpened": "2024-07-16T16:53:05.153Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "ResultCard.jsx",
               "DocumentMoniker": "E:\\PROJECTS\\accrue-quest\\src\\components\\quiz\\ResultCard.jsx",
               "RelativeDocumentMoniker": "src\\components\\quiz\\ResultCard.jsx",
@@ -314,11 +366,12 @@
               "RelativeToolTip": "src\\components\\quiz\\ResultCard.jsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-07-10T18:18:31.053Z"
+              "WhenOpened": "2024-07-10T18:18:31.053Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "navbar.jsx",
               "DocumentMoniker": "E:\\PROJECTS\\accrue-quest\\src\\components\\navbar.jsx",
               "RelativeDocumentMoniker": "src\\components\\navbar.jsx",
@@ -326,23 +379,12 @@
               "RelativeToolTip": "src\\components\\navbar.jsx",
               "ViewState": "AgIAABgAAAAAAAAAAADwvzoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-06-28T19:40:48.23Z"
+              "WhenOpened": "2024-06-28T19:40:48.23Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LeaderBoard.jsx",
-              "DocumentMoniker": "E:\\PROJECTS\\accrue-quest\\src\\components\\LeaderBoard.jsx",
-              "RelativeDocumentMoniker": "src\\components\\LeaderBoard.jsx",
-              "ToolTip": "E:\\PROJECTS\\accrue-quest\\src\\components\\LeaderBoard.jsx",
-              "RelativeToolTip": "src\\components\\LeaderBoard.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGgAAABYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-07-14T12:44:31.759Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "Footer.css",
               "DocumentMoniker": "E:\\PROJECTS\\accrue-quest\\src\\components\\footer\\Footer.css",
               "RelativeDocumentMoniker": "src\\components\\footer\\Footer.css",
@@ -350,11 +392,12 @@
               "RelativeToolTip": "src\\components\\footer\\Footer.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-07-14T14:44:37.098Z"
+              "WhenOpened": "2024-07-14T14:44:37.098Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "GridClickComponent.jsx",
               "DocumentMoniker": "E:\\PROJECTS\\accrue-quest\\src\\components\\GridClickComponent.jsx",
               "RelativeDocumentMoniker": "src\\components\\GridClickComponent.jsx",
@@ -362,11 +405,12 @@
               "RelativeToolTip": "src\\components\\GridClickComponent.jsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-06-28T08:12:29.443Z"
+              "WhenOpened": "2024-06-28T08:12:29.443Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "PointExhaustedComponent.jsx",
               "DocumentMoniker": "E:\\PROJECTS\\accrue-quest\\src\\components\\PointExhaustedComponent.jsx",
               "RelativeDocumentMoniker": "src\\components\\PointExhaustedComponent.jsx",
@@ -374,11 +418,12 @@
               "RelativeToolTip": "src\\components\\PointExhaustedComponent.jsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-06-28T13:10:10.865Z"
+              "WhenOpened": "2024-06-28T13:10:10.865Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "ProfileFields.jsx",
               "DocumentMoniker": "E:\\PROJECTS\\accrue-quest\\src\\components\\ProfileFields.jsx",
               "RelativeDocumentMoniker": "src\\components\\ProfileFields.jsx",
@@ -386,11 +431,12 @@
               "RelativeToolTip": "src\\components\\ProfileFields.jsx",
               "ViewState": "AgIAAAgAAAAAAAAAAAAmwC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-07-14T13:31:22.604Z"
+              "WhenOpened": "2024-07-14T13:31:22.604Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "BookIcon.jsx",
               "DocumentMoniker": "E:\\PROJECTS\\accrue-quest\\src\\components\\BookIcon.jsx",
               "RelativeDocumentMoniker": "src\\components\\BookIcon.jsx",
@@ -398,11 +444,12 @@
               "RelativeToolTip": "src\\components\\BookIcon.jsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-06-28T19:11:13.362Z"
+              "WhenOpened": "2024-06-28T19:11:13.362Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "AnimatedCircle.jsx",
               "DocumentMoniker": "E:\\PROJECTS\\accrue-quest\\src\\components\\AnimatedCircle.jsx",
               "RelativeDocumentMoniker": "src\\components\\AnimatedCircle.jsx",
@@ -410,11 +457,12 @@
               "RelativeToolTip": "src\\components\\AnimatedCircle.jsx",
               "ViewState": "AgIAABMAAAAAAAAAAAAqwDQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-06-28T18:33:03.876Z"
+              "WhenOpened": "2024-06-28T18:33:03.876Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "ProgressBar.jsx",
               "DocumentMoniker": "E:\\PROJECTS\\accrue-quest\\src\\components\\quiz\\ProgressBar.jsx",
               "RelativeDocumentMoniker": "src\\components\\quiz\\ProgressBar.jsx",
@@ -422,11 +470,12 @@
               "RelativeToolTip": "src\\components\\quiz\\ProgressBar.jsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-06-28T19:45:28.138Z"
+              "WhenOpened": "2024-06-28T19:45:28.138Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "data.jsx",
               "DocumentMoniker": "E:\\PROJECTS\\accrue-quest\\src\\components\\data.jsx",
               "RelativeDocumentMoniker": "src\\components\\data.jsx",
@@ -434,11 +483,12 @@
               "RelativeToolTip": "src\\components\\data.jsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-07-10T18:31:13.898Z"
+              "WhenOpened": "2024-07-10T18:31:13.898Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "FloatingBrain.css",
               "DocumentMoniker": "E:\\PROJECTS\\accrue-quest\\src\\components\\FloatingBrain.css",
               "RelativeDocumentMoniker": "src\\components\\FloatingBrain.css",
@@ -446,11 +496,12 @@
               "RelativeToolTip": "src\\components\\FloatingBrain.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-28T19:34:56.039Z"
+              "WhenOpened": "2024-06-28T19:34:56.039Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "FloatingBrain.jsx",
               "DocumentMoniker": "E:\\PROJECTS\\accrue-quest\\src\\components\\FloatingBrain.jsx",
               "RelativeDocumentMoniker": "src\\components\\FloatingBrain.jsx",
@@ -458,11 +509,12 @@
               "RelativeToolTip": "src\\components\\FloatingBrain.jsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-06-28T19:33:33.228Z"
+              "WhenOpened": "2024-06-28T19:33:33.228Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "Batterybar.jsx",
               "DocumentMoniker": "E:\\PROJECTS\\accrue-quest\\src\\components\\Batterybar.jsx",
               "RelativeDocumentMoniker": "src\\components\\Batterybar.jsx",
@@ -470,11 +522,12 @@
               "RelativeToolTip": "src\\components\\Batterybar.jsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-06-28T19:46:13.652Z"
+              "WhenOpened": "2024-06-28T19:46:13.652Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "index.css",
               "DocumentMoniker": "E:\\PROJECTS\\accrue-quest\\src\\components\\index.css",
               "RelativeDocumentMoniker": "src\\components\\index.css",
@@ -482,11 +535,12 @@
               "RelativeToolTip": "src\\components\\index.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-07-10T18:16:10.828Z"
+              "WhenOpened": "2024-07-10T18:16:10.828Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "index.html",
               "DocumentMoniker": "E:\\PROJECTS\\accrue-quest\\index.html",
               "RelativeDocumentMoniker": "index.html",
@@ -494,11 +548,12 @@
               "RelativeToolTip": "index.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-07-10T18:16:23.755Z"
+              "WhenOpened": "2024-07-10T18:16:23.755Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "ClickerGame.css",
               "DocumentMoniker": "E:\\PROJECTS\\accrue-quest\\src\\components\\ClickerGame.css",
               "RelativeDocumentMoniker": "src\\components\\ClickerGame.css",
@@ -506,11 +561,12 @@
               "RelativeToolTip": "src\\components\\ClickerGame.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-28T19:06:38.918Z"
+              "WhenOpened": "2024-06-28T19:06:38.918Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "PenIcon.jsx",
               "DocumentMoniker": "E:\\PROJECTS\\accrue-quest\\src\\components\\PenIcon.jsx",
               "RelativeDocumentMoniker": "src\\components\\PenIcon.jsx",
@@ -518,11 +574,12 @@
               "RelativeToolTip": "src\\components\\PenIcon.jsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-06-28T19:20:41.254Z"
+              "WhenOpened": "2024-06-28T19:20:41.254Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "userService.jsx",
               "DocumentMoniker": "E:\\PROJECTS\\accrue-quest\\src\\services\\userService.jsx",
               "RelativeDocumentMoniker": "src\\services\\userService.jsx",
@@ -530,7 +587,8 @@
               "RelativeToolTip": "src\\services\\userService.jsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-06-28T13:07:09.367Z"
+              "WhenOpened": "2024-06-28T13:07:09.367Z",
+              "EditorCaption": ""
             }
           ]
         }

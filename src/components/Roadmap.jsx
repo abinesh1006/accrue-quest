@@ -41,8 +41,7 @@ const roadmapData = [
 
 const Roadmap = () => {
     return (
-        <div className="flex justify-center items-center h-screen bg-gradient-to-br from-blue-600 to-blue-900 rounded-lg">
-            <div className="w-full max-w-4xl p-6 md:p-8 bg-white rounded-lg shadow-lg relative max-h-[80vh] overflow-hidden">
+        <div >
                 <div className="flex flex-col gap-6 max-h-[80vh] overflow-y-auto scrollbar-hidden pb-12 rounded-lg">
                     {roadmapData.map((entry, index) => (
                         <div
@@ -72,7 +71,7 @@ const Roadmap = () => {
                     ))}
                 </div>
             </div>
-        </div>
+       
     );
 };
 

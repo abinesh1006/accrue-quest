@@ -9,8 +9,7 @@ const Profile = ({ profileDetails, currentPoints }) => {
   
 
     return (
-        <div className="flex justify-center items-center h-screen bg-gradient-to-br from-blue-600 to-blue-900">
-            <div className="w-full max-w-lg p-8 bg-white rounded-lg shadow-lg relative">
+        <div>
                 {/* Profile Details Section */}
                 <div className="flex items-center justify-between mb-4">
                     <h1 className="text-3xl font-bold text-blue-800">Profile Details</h1>
@@ -23,7 +22,7 @@ const Profile = ({ profileDetails, currentPoints }) => {
                 {/* Displaying fields */}
                 <ProfileFields currentPoints={currentPoints} profileDetails={profileDetails} userFriendlyAddress={userFriendlyAddress} rawAddress={rawAddress} />
             </div>
-        </div>
+       
     );
 };
 
