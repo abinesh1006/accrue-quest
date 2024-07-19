@@ -64,7 +64,8 @@ const Leaderboard = ({ currentUserId, currentScore, currentRank }) => {
 
     return (
        
-            <div>
+        <div className="flex justify-center items-center h-screen bg-gradient-to-br from-blue-600 to-blue-900 rounded-lg">
+            <div className="w-full max-w-4xl p-6 md:p-8 bg-white rounded-lg shadow-lg relative max-h-[80vh] overflow-hidden">
                 <div className="leaderboard">
                     {levels.map((level, index) => (
                         <div key={level.id} className={`mb-8 ${index === currentLevelIndex ? 'block' : 'hidden'}`}>
@@ -126,6 +127,7 @@ const Leaderboard = ({ currentUserId, currentScore, currentRank }) => {
                         &gt;
                     </button>
                 </div>
+            </div>
             </div>
        
     );

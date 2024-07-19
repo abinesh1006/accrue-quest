@@ -10,6 +10,7 @@ import Leaderboard from './components/LeaderBoard';
 import TasksPage from './components/TasksPage';
 import Roadmap from './components/Roadmap';
 import CardGrid from './components/cards/CardGrid';
+import HomePage from './components/HomePage';
 
 const App = () => {
     const [initialPoints, setInitialPoints] = useState(10000);
@@ -77,17 +78,23 @@ const App = () => {
        
         <Router>
             <Navbar currentPoints={initialPoints || 0} />
-            <div className="flex justify-center items-center h-screen bg-gradient-to-br from-blue-600 to-blue-900 rounded-lg">
-                <div className="w-full max-w-4xl p-6 md:p-8 bg-white rounded-lg shadow-lg relative max-h-[80vh] overflow-hidden">
-            <Routes>
+            
+               <Routes>
                 <Route path="/profile" element={<Profile profileDetails={profileDetails} currentPoints={initialPoints} />} />
+
+                
+
                 <Route
-                    path="/"
+                    path="/quiz"
                     element={initialPoints !== null && initialPoints > 0 ? (
                         <QuizContainer currentPoints={initialPoints} onPointsUpdate={handlePointsUpdate} />
                     ) : (
                         <Navigate to="/point-exhausted" />
                     )}
+                />
+                <Route
+                    path="/"
+                    element={<HomePage />}
                 />
                 <Route path="/point-exhausted" element={<PointExhaustedComponent />} />
                 <Route
@@ -110,11 +117,10 @@ const App = () => {
                     path="/leaderboard"
                     element={<Leaderboard currentUserId={profileDetails.userId} currentScore={initialPoints} currentRank={profileDetails.rank} />}
                 />
-                        <Route path="*" element={<NotFound />} />
-                  
+           
                     </Routes>
-                </div>
-            </div>
+            {/*    </div>*/}
+            {/*</div>*/}
             <Footer />
                 </Router>
          

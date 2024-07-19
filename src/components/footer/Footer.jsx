@@ -4,6 +4,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const Footer = () => {
     const buttons = [
+        { name: 'Home', routeUrl: '/', icon: 'fa-solid fa-home' },
         { name: 'Quiz', routeUrl: '/quiz', icon: 'fa-solid fa-exchange-alt' },
         { name: 'Mine', routeUrl: '/mine', icon: 'fa-solid fa-gem' },
         { name: 'Profile', routeUrl: '/profile', icon: 'fa-solid fa-user-friends' },
